@@ -86,13 +86,13 @@ Settings > System > About > Rename this PC
 
 For DC:
 
-<img src="images/4.png" width="40%" height="40%"/>
+<img src="images/4.png" width="60%" height="60%"/>
 
 For Client PCs:
 
-<img src="images/5.png" width="40%" height="40%"/>
+<img src="images/5.png" width="60%" height="60%"/>
 
-<img src="images/6.png" width="40%" height="40%"/>
+<img src="images/6.png" width="60%" height="60%"/>
 
 ---
 
@@ -146,7 +146,7 @@ For Client PCs:
 In Both the Client Computers: 
 - Settings > About > Click on 'Rename this PC (Advanced)' on the far right
 
-<img src="images/16.png" width="60%" height="60%"/>
+<img src="images/16.png" width="70%" height="70%"/>
 
 - Click on Change Button, here we are changing the domain of the PC
 
