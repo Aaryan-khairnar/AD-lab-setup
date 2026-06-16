@@ -56,7 +56,7 @@ Domain: evilcorp.lab
 - Click on Internet Protocol Version 4
 - Set the following IP address, Subnet Mask and DNS
 
-<img src="images/1.png" width="30%" height="30%"/>
+<img src="images/1.png" width="50%" height="50%"/>
 
 
 
@@ -85,13 +85,13 @@ Settings > System > About > Rename this PC
 
 For DC:
 
-<img src="images/4.png" width="30%" height="30%"/>
+<img src="images/4.png" width="70%" height="70%"/>
 
 For Client PCs:
 
-<img src="images/6.png" width="30%" height="30%"/>
+<img src="images/6.png" width="70%" height="70%"/>
 
-<img src="images/5.png" width="30%" height="30%"/>
+<img src="images/5.png" width="70%" height="70%"/>
 
 ---
 
