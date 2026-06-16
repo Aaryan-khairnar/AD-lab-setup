@@ -68,7 +68,7 @@ Domain: evilcorp.lab
 - Click on Internet Protocol Version 4
 - Set the following IP address, Subnet Mask and DNS
 
-<img src="images/1.png" width="40%" height="40%"/>
+<img src="images/1.png" width="50%" height="50%"/>
 
 
 
@@ -121,7 +121,7 @@ For Client PCs:
 
 - Install AD Domain Services
 
-<img src="images/9.png" width="40%" height="40%"/>
+<img src="images/9.png" width="50%" height="50%"/>
 
 ---
 
@@ -133,11 +133,11 @@ For Client PCs:
 
 - Add a new forest > Put root domain name 'evilcorp.lab' in my case
 
-<img src="images/11.png" width="40%" height="40%"/>
+<img src="images/11.png" width="50%" height="50%"/>
 
 - Set password and Confirm
 
-<img src="images/12.png" width="40%" height="40%"/>
+<img src="images/12.png" width="50%" height="50%"/>
 
 - Install and Restart 
 
@@ -145,11 +145,11 @@ For Client PCs:
 
 - In the server you can login using the domain now
 
-<img src="images/14.png" width="40%" height="40%"/>
+<img src="images/14.png" width="50%" height="50%"/>
 
 - On Server Manager you can see AD DS and DNS services are up and running
 
-<img src="images/15.png" width="40%" height="40%"/>
+<img src="images/15.png" width="50%" height="50%"/>
 
 ---
 
@@ -162,11 +162,11 @@ In Both the Client Computers:
 
 - Click on Change Button, here we are changing the domain of the PC
 
-<img src="images/17.png" width="40%" height="40%"/>
+<img src="images/17.png" width="50%" height="50%"/>
 
 - Add domain 'evilcorp.lab' and click OK
 
-<img src="images/18.png" width="40%" height="40%"/>
+<img src="images/18.png" width="50%" height="50%"/>
 
 - Authenticate with username and password of the Admin of our domain
 
@@ -182,9 +182,9 @@ In Both the Client Computers:
 
 I can login to both cliet computers using evilcorp\Administrator 
 
-<img src="images/21.png" width="40%" height="40%"/>
+<img src="images/21.png" width="50%" height="50%"/>
 
-<img src="images/22.png" width="40%" height="40%"/>
+<img src="images/22.png" width="50%" height="50%"/>
 
 I can also check on Domain Controller Server > 'Active Directory Users and Computers' > Computers 
 
@@ -230,32 +230,32 @@ Service Accounts(OU = Services):
 - Go to 'Active Directory Users and Computers' > evilcorp.lab > Right click > Create a New Organizational Unit
 - Name it 'EVILCORP'
 
-<img src="images/24.png" width="40%" height="40%"/>
+<img src="images/24.png" width="50%" height="50%"/>
 
 
 - Go to EVILCORP OU
 - Right Click > Create new User
 - Fill in details, repeat for all other users
 
-<img src="images/25.png" width="40%" height="40%"/>
+<img src="images/25.png" width="50%" height="50%"/>
 
 - Just for the lab I will keep a simple password, and set Password never expires option
 
-<img src="images/26.png" width="40%" height="40%"/>
+<img src="images/26.png" width="50%" height="50%"/>
 
 - Once I add all the users and divide them in OUs, this is how the structure looks like:
 
-<img src="images/27.png" width="40%" height="40%"/>
+<img src="images/27.png" width="50%" height="50%"/>
 
 ### Verifying
 
 I try signing into a client computer using credentials of Daniel Clark
 
-<img src="images/28.png" width="40%" height="40%"/>
+<img src="images/28.png" width="50%" height="50%"/>
 
 I can sign in
 
-<img src="images/29.png" width="40%" height="40%"/>
+<img src="images/29.png" width="50%" height="50%"/>
 
 ---
 
@@ -266,7 +266,7 @@ I can sign in
 - Go to 'Group Policy Management' software on DC Server
 - Go to Group Policy Objects
 
-<img src="images/30.png" width="40%" height="40%"/>
+<img src="images/30.png" width="50%" height="50%"/>
 
 - Right Click > New 
 - Make New group Policy Object
@@ -282,7 +282,7 @@ I can sign in
 - Right click on 'Prohibit Access to Control Panel and PC Settings'
 - Set to enabled and Click on Apply
 
-<img src="images/33.png" width="40%" height="40%"/>
+<img src="images/33.png" width="50%" height="50%"/>
 
 - Close the window > Head back to Group Policy Objects
 - Click on the settings tab, you can see summary of the rule applied
@@ -291,7 +291,7 @@ I can sign in
 
 - Drag and drop GPO to the desired OUs
 
-<img src="images/35.png" width="40%" height="40%"/>
+<img src="images/35.png" width="50%" height="50%"/>
 
 ### Verifying
 
