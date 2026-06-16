@@ -64,6 +64,9 @@ Domain: evilcorp.lab
 - Go to network and Internet Settings > Ethernet > Change Setting to manual > Set Ipv4 to ON > Put IP address
 
 ![ipv4 config](images/1-1.png)
+
+
+<img src="images/1-1.png" alt="drawing" width="40%" height="40%"/>
   
 
 For WIN10U1
