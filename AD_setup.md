@@ -56,44 +56,41 @@ Domain: evilcorp.lab
 - Click on Internet Protocol Version 4
 - Set the following IP address, Subnet Mask and DNS
 
-
 ![ipv4 config](images/1.png)
 
 
 ### Configuring Client IP addresses
 - Windows 10
 - Go to network and Internet Settings > Ethernet > Change Setting to manual > Set Ipv4 to ON > Put IP address
-  
 
 ![ipv4 config](images/1-1.png)
   
 
 For WIN10U1
   
-  
 ![ipv4 config](images/2.png)
 
 
 For WIN10A1
-  
 
 ![ipv4 config](images/3.png)
 
+---
 
 # Configuring Names of all Computers
 
 Settings > System > About > Rename this PC
 
 For DC:
-  
 
 ![name config](images/4.png)
-  
 
 For Client PCs:
-  
 
 ![name config](images/5.png)
   
-  
 ![name config](images/6.png)
+
+---
+
+#  
