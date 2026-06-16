@@ -183,7 +183,7 @@ I can see Both my client PCs.
 
 I will have 12 users in this lab
 
-Regular Employees:
+Regular Employees: 
 
 | Name          | Username      | Department |
 | ------------- | ------------- | ---------- |
@@ -209,3 +209,27 @@ Service Accounts:
 | --------------- | ----------- |
 | SQL Service     | svc_sql     |
 | Backup Service  | svc_backup  |
+
+### Adding users
+
+- Go to 'Active Directory Users and Computers' > evilcorp.lab > Right click > Create a New Organizational Unit
+- Name it 'EVILCORP'
+
+<img src="images/24.png" width="50%" height="50%"/>
+
+
+- Go to EVILCORP OU
+- Right Click > Create new User
+- Fill in details, repeat for all other users
+
+<img src="images/25.png" width="50%" height="50%"/>
+
+- Just for the lab I will keep a simple password, and set Password never expires option
+
+<img src="images/26.png" width="50%" height="50%"/>
+
+- Once I add all the users and divide them in OUs, this is how the structure looks like:
+
+<img src="images/27.png" width="50%" height="50%"/>
+
+
