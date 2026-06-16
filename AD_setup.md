@@ -85,14 +85,58 @@ Settings > System > About > Rename this PC
 
 For DC:
 
-<img src="images/4.png" width="70%" height="70%"/>
+<img src="images/4.png" width="60%" height="60%"/>
 
 For Client PCs:
 
-<img src="images/6.png" width="70%" height="70%"/>
+<img src="images/5.png" width="60%" height="60%"/>
 
-<img src="images/5.png" width="70%" height="70%"/>
+<img src="images/6.png" width="60%" height="60%"/>
 
 ---
 
-#  
+# Downloading Active Directory Domain Services
+
+- Server Manager > Add Roles and Features
+
+<img src="images/7.png" width="60%" height="60%"/>
+
+- Select AD Domain Services 
+- This installs DNS and AD Domain Services Both
+
+<img src="images/8.png" width="30%" height="30%"/>
+
+- Install AD Domain Services
+
+<img src="images/9.png" width="50%" height="50%"/>
+
+---
+
+# Promoting server to Active Directory
+
+- Go to Server Manager > Notifications > Click 'Promote'
+
+<img src="images/10.png" width="30%" height="30%"/>
+
+- Add a new forest > Put root domain name 'evilcorp.lab' in my case
+
+<img src="images/11.png" width="40%" height="40%"/>
+
+- Set password and Confirm
+
+<img src="images/12.png" width="40%" height="40%"/>
+
+- Install and Restart 
+
+<img src="images/13.png" width="60%" height="60%"/>
+
+- In the server you can login using the domain now
+
+<img src="images/14.png" width="50%" height="50%"/>
+
+- On Server Manager you can see AD DS and DNS services are up and running
+
+<img src="images/15.png" width="40%" height="40%"/>
+
+---
+
