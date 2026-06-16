@@ -1,8 +1,6 @@
 # Active Directory LAB Setup
 
-Domain: evilcorp.lab
-
----
+> Domain: evilcorp.lab
 
 ## Architecture
 
@@ -20,7 +18,6 @@ DC                  WIN10-U1                WIN10-A1
 Server 2019        Windows 10               Windows 10              
 192.168.148.10     192.168.148.20          192.168.148.30
 DNS -> self        DNS -> 148.10           DNS -> 148.10
-|
 |
 |
 Domain: evilcorp.lab
@@ -164,6 +161,8 @@ In Both the Client Computers:
 
 <img src="images/20.png" width="60%" height="60%"/>
 
+- Repeat the same for other computer too
+
 ### Verification
 
 I can login to both cliet computers using evilcorp\Administrator 
@@ -177,3 +176,36 @@ I can also check on Domain Controller Server > 'Active Directory Users and Compu
 <img src="images/23.png" width="60%" height="60%"/>
 
 I can see Both my client PCs.
+
+---
+
+# Adding Users to the Active Directory Domain
+
+I will have 12 users in this lab
+
+Regular Employees:
+
+| Name          | Username      | Department |
+| ------------- | ------------- | ---------- |
+| Emma Brown    | emma.brown    | Dev        |
+| Kevin White   | kevin.white   | Dev        |
+| Bob Miller    | bob.miller    | HR         |
+| Daniel Clark  | daniel.clark  | HR         |
+| Sarah Lee     | sarah.lee     | Finance    |
+| Mia Walker    | mia.walker    | Finance    |
+| John Smith    | john.smith    | Marketing  |
+| Ethan Hall    | ethan.hall    | Marketing  |
+
+Admin Users:
+
+| Name         | Username    |
+| ------------ | ----------- |
+| Helpdesk     | helpdesk    |
+| IT Admin     | itadmin     |
+
+Service Accounts:
+
+| Name            | Username    |
+| --------------- | ----------- |
+| SQL Service     | svc_sql     |
+| Backup Service  | svc_backup  |
