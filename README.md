@@ -98,13 +98,13 @@ Settings > System > About > Rename this PC
 
 For DC:
 
-<img src="images/4.png" width="60%" height="60%"/>
+<img src="images/4.png" width="70%" height="70%"/>
 
 For Client PCs:
 
-<img src="images/5.png" width="60%" height="60%"/>
+<img src="images/5.png" width="70%" height="70%"/>
 
-<img src="images/6.png" width="60%" height="60%"/>
+<img src="images/6.png" width="70%" height="70%"/>
 
 ---
 
@@ -112,7 +112,7 @@ For Client PCs:
 
 - Server Manager > Add Roles and Features
 
-<img src="images/7.png" width="60%" height="60%"/>
+<img src="images/7.png" width="70%" height="70%"/>
 
 - Select AD Domain Services 
 - This installs DNS and AD Domain Services Both
@@ -141,7 +141,7 @@ For Client PCs:
 
 - Install and Restart 
 
-<img src="images/13.png" width="60%" height="60%"/>
+<img src="images/13.png" width="70%" height="70%"/>
 
 - In the server you can login using the domain now
 
@@ -174,7 +174,7 @@ In Both the Client Computers:
 
 - Congratulations, the computer is now connected to evilcorp.lab domain
 
-<img src="images/20.png" width="60%" height="60%"/>
+<img src="images/20.png" width="70%" height="70%"/>
 
 - Repeat the same for other computer too
 
@@ -188,7 +188,7 @@ I can login to both cliet computers using evilcorp\Administrator
 
 I can also check on Domain Controller Server > 'Active Directory Users and Computers' > Computers 
 
-<img src="images/23.png" width="60%" height="60%"/>
+<img src="images/23.png" width="70%" height="70%"/>
 
 I can see Both my client PCs.
 
@@ -277,7 +277,7 @@ I can sign in
 - On the newly created GPO > Right Click > Edit
 - Go to Control Panel under User Configuration
 
-<img src="images/32.png" width="60%" height="60%"/>
+<img src="images/32.png" width="70%" height="70%"/>
 
 - Right click on 'Prohibit Access to Control Panel and PC Settings'
 - Set to enabled and Click on Apply
