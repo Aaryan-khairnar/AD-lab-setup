@@ -158,7 +158,7 @@ In Both the Client Computers:
 
 - Authenticate with username and password of the Admin of our domain
 
-<img src="images/19.png" width="60%" height="60%"/>
+<img src="images/19.png" width="30%" height="30%"/>
 
 - Congratulations, the computer is now connected to evilcorp.lab domain
 
@@ -168,9 +168,9 @@ In Both the Client Computers:
 
 I can login to both cliet computers using evilcorp\Administrator 
 
-<img src="images/21.png" width="40%" height="40%"/>
+<img src="images/21.png" width="50%" height="50%"/>
 
-<img src="images/22.png" width="40%" height="40%"/>
+<img src="images/22.png" width="50%" height="50%"/>
 
 I can also check on Domain Controller Server > 'Active Directory Users and Computers' > Computers 
 
