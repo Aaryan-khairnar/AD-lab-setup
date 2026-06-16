@@ -63,6 +63,7 @@ Domain: evilcorp.lab
 ### Configuring Client IP addresses
 - Windows 10
 - Go to network and Internet Settings > Ethernet > Change Setting to manual > Set Ipv4 to ON > Put IP address
+- [IMP]: Make sure to keep the server IP address as the DNS
 
 <img src="images/1-1.png" width="30%" height="30%"/>
   
@@ -85,13 +86,13 @@ Settings > System > About > Rename this PC
 
 For DC:
 
-<img src="images/4.png" width="60%" height="60%"/>
+<img src="images/4.png" width="40%" height="40%"/>
 
 For Client PCs:
 
-<img src="images/5.png" width="60%" height="60%"/>
+<img src="images/5.png" width="40%" height="40%"/>
 
-<img src="images/6.png" width="60%" height="60%"/>
+<img src="images/6.png" width="40%" height="40%"/>
 
 ---
 
@@ -136,7 +137,43 @@ For Client PCs:
 
 - On Server Manager you can see AD DS and DNS services are up and running
 
-<img src="images/15.png" width="40%" height="40%"/>
+<img src="images/15.png" width="50%" height="50%"/>
 
 ---
 
+# Connect Client Computers to the Active Directory Domain 
+
+In Both the Client Computers: 
+- Settings > About > Click on 'Rename this PC (Advanced)' on the far right
+
+<img src="images/16.png" width="60%" height="60%"/>
+
+- Click on Change Button, here we are changing the domain of the PC
+
+<img src="images/17.png" width="40%" height="40%"/>
+
+- Add domain 'evilcorp.lab' and click OK
+
+<img src="images/18.png" width="40%" height="40%"/>
+
+- Authenticate with username and password of the Admin of our domain
+
+<img src="images/19.png" width="60%" height="60%"/>
+
+- Congratulations, the computer is now connected to evilcorp.lab domain
+
+<img src="images/20.png" width="60%" height="60%"/>
+
+### Verification
+
+I can login to both cliet computers using evilcorp\Administrator 
+
+<img src="images/21.png" width="40%" height="40%"/>
+
+<img src="images/22.png" width="40%" height="40%"/>
+
+I can also check on Domain Controller Server > 'Active Directory Users and Computers' > Computers 
+
+<img src="images/23.png" width="60%" height="60%"/>
+
+I can see Both my client PCs.
